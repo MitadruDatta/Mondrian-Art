@@ -16,25 +16,30 @@
     display: grid;
     grid-template-columns: 320px 198px 153px 50px;
     grid-template-rows: 414px 130px 155px 20px;
-    gap: 9px;
     width: 748px;
     height: 748px;
 }
 
 .container>div {
     background-color: #F0F1EC;
+    border: 4.5px solid #232629;
 }
 
 .box.red {
     background-color: #E72F24;
+    border-top: 0px;
+    border-left: 0px;
 }
 
 .box.second {
     grid-column: span 3;
+    border-top: 0px;
+    border-right: 0px;
 }
 
 .box.third {
     grid-row: span 2;
+    border-left: 0px;
 }
 
 .box.fourth {
@@ -45,16 +50,26 @@
 .box.blue {
     background-color: #004592;
     border-bottom: 10px solid #232629;
+    border-right: 0px;
 }
 
 .box.fifth {
     grid-row: span 2;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.box.sixth {
+    border-left: 0px;
+    border-bottom: 0px;
 }
 
 .box.yellow {
     background-color: #F9D01E;
+    border-bottom: 0px;
 }
 
 .box.black {
     background-color: #232629;
+    border-bottom: 0px;
 }
