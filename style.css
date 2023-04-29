@@ -20,3 +20,41 @@
     width: 748px;
     height: 748px;
 }
+
+.container>div {
+    background-color: #F0F1EC;
+}
+
+.box.red {
+    background-color: #E72F24;
+}
+
+.box.second {
+    grid-column: span 3;
+}
+
+.box.third {
+    grid-row: span 2;
+}
+
+.box.fourth {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.box.blue {
+    background-color: #004592;
+    border-bottom: 10px solid #232629;
+}
+
+.box.fifth {
+    grid-row: span 2;
+}
+
+.box.yellow {
+    background-color: #F9D01E;
+}
+
+.box.black {
+    background-color: #232629;
+}
